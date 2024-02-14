@@ -1,7 +1,7 @@
 const express = require('express');
 const ConservationSchema = require("../Models/ConversationModel");
 const Message = require('../Models/MessageModel');
-const { getReceiverSocketId } = require('../socket/Socket');
+const { getReceiverSocketId } = require('../socket/socket');
 
 
 exports.SendMessage = async(req,res,next)=>{
